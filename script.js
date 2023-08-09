@@ -22,9 +22,9 @@ const numberOfBooksRead = () => {
 	for(const i:library)
 		{
 			if(library.hasOwnProperty(i)==true)
-		{
+		   {
 			count++;
-		}
+		  }
 		}
    // return count;
 console.log(count);
