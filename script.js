@@ -19,12 +19,12 @@ const library = [
 const numberOfBooksRead = () => {
   // write your code here
 	var count=0;
-	for(let i:library)
+	for(const i:library)
 		{
-			if(i.readingStatus==true)
-		    {
-			    count++;
-		    }
+			if(library.hasOwnProperty(i)==true)
+		{
+			count++;
+		}
 		}
    // return count;
 console.log(count);
